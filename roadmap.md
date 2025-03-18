@@ -10,7 +10,7 @@ Stay tuned for more updates as we continue to improve and expand Recycla!
 ## The Road Ahead
 
 - **Phase 4: Alpha Preparation**: Further improved stability. Improved classification performance. Improved workflows for more efficient hardware deployment.
-- **Future Phase: Alpha**: Deploy to 10 more users.
+- **Future Phase: Alpha**: Deploy to 10 more users.  Alpha launch target date is the week of **April 21-25**. 
 
 ## The Road Behind
 
