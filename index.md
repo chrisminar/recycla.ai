@@ -11,7 +11,7 @@ layout: home
 
 <p>We have a total of <span id="video-count">loading...</span> videos available.</p>
 
-<script>
+<script type="module">
   // Import the necessary Firebase modules
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
   import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js";
