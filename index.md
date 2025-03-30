@@ -9,7 +9,7 @@ layout: home
 
 ![Recycla](/images/app_logo.jpg){: width="512" }
 
-<p>We have a total of <span id="video-count">loading...</span> videos available.</p>
+<!-- <p>We have a total of <span id="video-count">loading...</span> videos available.</p> -->
 
 <script type="module">
   // Import the necessary Firebase modules
@@ -43,4 +43,8 @@ layout: home
       console.error("Error fetching video count:", error);
       videoCountElement.textContent = "an error occurred";
     });
+// YOU ARE HERE, don't want to give read access to this so instead going to make cloud functions that get called on a time interval
+// https://firebase.google.com/docs/functions/schedule-functions?gen=2nd
+// those will write to a special area that will have different permissions, i.e. anyone can read
+// then that special area will get looked at by the website
 </script>
