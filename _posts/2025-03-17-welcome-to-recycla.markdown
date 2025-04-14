@@ -6,6 +6,6 @@ categories: recycla update
 ---
 Welcome to Recycla! Recycla is a project I've been working on that tracks what you recycle. It uses a camera that you place on your recycle bin, and an iphone app.
 
-![Recycla Camera](/images/IMG_1852.png)
-![Recycla Thumbnails](/images/IMG_1853.PNG)
-![Recycla Summary](/images/IMG_1854.PNG)
+<img src="{{ "/images/IMG_1852.png" | prepend: site.baseurl | prepend: site.url}}" alt="Recycla Camera" />
+<img src="{{ "/images/IMG_1853.PNG" | prepend: site.baseurl | prepend: site.url}}" alt="Recycla Thumbnails" />
+<img src="{{ "/images/IMG_1854.PNG" | prepend: site.baseurl | prepend: site.url}}" alt="Recycla Summary" />

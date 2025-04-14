@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Case Drop!"
+date:   2025-04-14 13:00:00 -0700
+categories: recycla alpha
+---
+
+Just got all the cases for the alpha deployment! Who wants the iridescent one!?
+
+<img src="{{ "/images/recycla_cases.jpg" | prepend: site.baseurl | prepend: site.url}}" alt="Recycla Cases" />
