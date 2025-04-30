@@ -28,6 +28,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header_pages:
+  - about.md
+  - roadmap.md
+  - sign_up.md
+  - tips.md
+
+include:
+  - subpage/device_setup.md
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
